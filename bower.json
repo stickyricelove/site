@@ -1,0 +1,19 @@
+{
+  "name": "srl-site",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stickyricelove/site",
+  "authors": [
+    "Lincoln Lee <git@lincoln.hk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
