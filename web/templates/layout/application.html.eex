@@ -12,12 +12,10 @@
   </head>
 
   <body>
-    <div class="container" role="main">
-      <div class="header">
+    <div class="row">
+      <div class="large-12 columns" role="content">
+        <%= @inner %>
       </div>
-
-      <%= @inner %>
-
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
     <script>require("web/static/js/app")</script>
