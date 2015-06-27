@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,27 @@
   </head>
 
   <body>
+    <div class="row">
+      <div class="columns">
+        <div class="icon-bar five-up">
+          <a class="item" href="/">
+            <label>主頁</label>
+          </a>
+          <a class="item" href="/">
+            <label>關於我們</label>
+          </a>
+          <a class="item" href="/">
+            <label>網誌</label>
+          </a>
+          <a class="item" href="/">
+            <label>討論區</label>
+          </a>
+          <a class="item" href="/">
+            <label>相薄</label>
+          </a>
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="large-12 columns" role="content">
         <%= @inner %>
