@@ -6325,6 +6325,24 @@ th.hide-for-touch {
 
 /*# sourceMappingURL=foundation.css.map */
 
+/* line 28, stdin */
+.xy-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/* line 32, stdin */
+.x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); }
+
+/* line 36, stdin */
+.y-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
 
 
 /*# sourceMappingURL=app.css.map*/
