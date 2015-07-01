@@ -1,73 +1,67 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Sticky Rice Love</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-  </head>
+  <title>Sticky Rice Love</title>
+  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+</head>
 
-  <body>
-    <div class="row">
-      <div class="columns">
-        <img class="large-5" src="/images/header/logo.png" />
-        <div class="large-1 right">
-          <div class="row right">
-            <div class="columns">
-              <div class="large-12">
-                <a href="/">ENG</a>
-                |
-                <a href="/">中文</a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="columns">
-              <div class="large-12">
-                <a href="#">
-                  <img src="/images/header/fb.png">
-                </a>
-                <a href="#">
-                  <img src="/images/header/ig.png">
-                </a>
-              </div>
-            </div>
-          </div>
+<body>
+  <div class="row">
+    <img class="large-5 columns" src="/images/header/logo.png" />
+    <img class="large-3 columns" src="/images/header/rice.gif" />
+    <div class="large-4 columns">
+      <div class="row">
+        <div class="large-12 columns">
+          <a href="/">ENG</a>
+          |
+          <a href="/">中文</a>
         </div>
-        <img class="large-3 right" src="/images/header/rice.gif" />
       </div>
-    </div>
-    <div class="row">
-      <div class="columns">
-        <div class="icon-bar five-up">
-          <a class="item" href="/">
-            <label>主頁</label>
+      <div class="row">
+        <div class="large-12 columns">
+          <a href="#">
+            <img src="/images/header/fb.png">
           </a>
-          <a class="item" href="/">
-            <label>關於我們</label>
-          </a>
-          <a class="item" href="/">
-            <label>網誌</label>
-          </a>
-          <a class="item" href="/">
-            <label>討論區</label>
-          </a>
-          <a class="item" href="/">
-            <label>相薄</label>
+          <a href="#">
+            <img src="/images/header/ig.png">
           </a>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="large-12 columns" role="content">
-        <%= @inner %>
+  </div>
+  <div class="row">
+    <div class="columns">
+      <div class="icon-bar five-up">
+        <a class="item" href="/">
+          <label>主頁</label>
+        </a>
+        <a class="item" href="/">
+          <label>關於我們</label>
+        </a>
+        <a class="item" href="/">
+          <label>網誌</label>
+        </a>
+        <a class="item" href="/">
+          <label>討論區</label>
+        </a>
+        <a class="item" href="/">
+          <label>相薄</label>
+        </a>
       </div>
-    </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-    <script>require("web/static/js/app")</script>
-  </body>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns" role="content">
+      <%= @inner %>
+    </div>
+  </div> <!-- /container -->
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  <script>require("web/static/js/app")</script>
+</body>
 </html>
