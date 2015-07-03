@@ -16,6 +16,7 @@
     <img class="large-5 columns" src="/images/header/logo.png" />
     <img class="large-3 columns" src="/images/header/rice.gif" />
     <div class="large-4 columns">
+     <div class="y-center">
       <div class="row">
         <div class="large-12 columns">
           <a href="/">ENG</a>
@@ -35,33 +36,34 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="columns">
-      <div class="icon-bar five-up">
-        <a class="item" href="/">
-          <label>主頁</label>
-        </a>
-        <a class="item" href="/">
-          <label>關於我們</label>
-        </a>
-        <a class="item" href="/">
-          <label>網誌</label>
-        </a>
-        <a class="item" href="/">
-          <label>討論區</label>
-        </a>
-        <a class="item" href="/">
-          <label>相薄</label>
-        </a>
-      </div>
+</div>
+<div class="row">
+  <div class="columns">
+    <div class="icon-bar five-up">
+      <a class="item" href="/">
+        <label>主頁</label>
+      </a>
+      <a class="item" href="/">
+        <label>關於我們</label>
+      </a>
+      <a class="item" href="/">
+        <label>網誌</label>
+      </a>
+      <a class="item" href="/">
+        <label>討論區</label>
+      </a>
+      <a class="item" href="/">
+        <label>相薄</label>
+      </a>
     </div>
   </div>
-  <div class="row">
-    <div class="large-12 columns" role="content">
-      <%= @inner %>
-    </div>
-  </div> <!-- /container -->
-  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-  <script>require("web/static/js/app")</script>
+</div>
+<div class="row">
+  <div class="large-12 columns" role="content">
+    <%= @inner %>
+  </div>
+</div> <!-- /container -->
+<script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+<script>require("web/static/js/app")</script>
 </body>
 </html>
